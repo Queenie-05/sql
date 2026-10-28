@@ -209,5 +209,12 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+The Canadian Nutrient File (CNF) illustrates how databases used in everyday nutrition decisions reflect values beyond technical accuracy. By organizing foods into categories and recording their nutrient content, it supports scientific measurement, standardization, and public health. These values are useful because they help people compare foods and allow researchers to study nutritional patterns. However, the choices behind the database also raise questions about cultural representation and fairness.
+
+One issue is which foods are included and how they are described. Canada contains many cultural communities with different ingredients, cooking methods, and eating traditions. A standardized food entry may not represent a homemade dish or its regional variations. If someone cannot find an appropriate match, they may need to select a substitute, potentially making their nutritional estimate less accurate. This possibility highlights why equal access to a database does not necessarily mean equally useful information for everyone.
+
+The CNF also uses average nutrient values. Although averages make comparisons manageable, they cannot capture every variation in ingredients or preparation. Furthermore, describing food through nutrients does not capture its cultural significance, affordability, or role in family relationships. These limitations do not make the database useless, but they remind me that numerical information represents only part of our relationship with food.
+
+This connects to the reading about Pakistan’s identification system: both databases rely on categories that simplify complex realities. Their consequences differ greatly, but their design choices influence whose experiences are represented. A fairer approach to nutrition data would involve diverse communities in reviewing food coverage, clearly explaining uncertainty, and supporting varied recipes and preparation methods. Overall, I believe databases should be evaluated for inclusion and adaptability alongside accuracy and efficiency, because decisions about what to record can shape how people understand themselves and others, and whose needs receive attention in research and public policy.
+
 ```
