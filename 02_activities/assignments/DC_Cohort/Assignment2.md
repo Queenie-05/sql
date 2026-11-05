@@ -57,7 +57,47 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+1. Type 1 SCD: overwrite changes
+
+The CUSTOMER_ADDRESS table contains:
+
+customer_id (PK, FK → CUSTOMER.customer_id)
+
+street_address
+
+city
+
+province
+
+postal_code
+
+country
+
+
+2. Type 2 SCD: retain historical changes
+
+The CUSTOMER_ADDRESS table contains:
+
+address_id (PK)
+
+customer_id (FK → CUSTOMER.customer_id)
+
+street_address
+
+city
+
+province
+
+postal_code
+
+country
+
+valid_from
+
+valid_to
+
+is_current
+
 ```
 
 ***
@@ -192,5 +232,15 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+Vicki Boykis’s article highlights the human labour and decisions behind artificial intelligence. Although machine learning can appear automated, Boykis explains that its foundations depend on people collecting, labeling, and organizing information. This raises ethical questions about working conditions, bias, recognition, and responsibility.
+
+One important issue is the treatment of workers. Boykis describes how ImageNet relied on people completing image-labeling tasks for small payments, while researchers received greater public recognition. Researchers deserve credit, but the contributions of other workers should also be acknowledged. In my view, companies and research institutions should provide fair compensation, clear expectations, and ways for workers to challenge unfair decisions. Describing their work as repetitive does not make it less essential.
+
+Another concern is bias. People decide which categories exist and how information fits into them. These decisions can reflect cultural assumptions and prejudices. Boykis’s discussion of ImageNet Roulette shows how classifying people can produce offensive or inappropriate labels. This suggests that improving accuracy is not enough. Developers should also question whether a category should exist. A system that consistently applies a harmful label remains ethically problematic, even if it follows its design correctly.
+
+Content moderation raises related concerns. Judging whether material is hateful, threatening, or humorous often requires context. Ethical moderation should allow disagreement and give users opportunities to appeal mistakes. Workers reviewing disturbing material should receive appropriate support, breaks, and protection from excessive exposure. The convenience of a safer online environment should not depend on ignoring the well-being of those maintaining it.
+
+These concerns also apply to the proliferation of large language models. Reusing a model across many applications could spread the same problematic assumptions into different settings. Organizations should therefore assess whether a model is appropriate for its intended purpose and establish who will address mistakes. Blaming an algorithm should never replace accountability.
+
+Overall, the article encourages us to see AI as a technology shaped by social relationships. Ethical development requires attention to the people building systems, the judgments embedded in their data, and the communities affected by their outputs. Technical progress should be evaluated alongside fairness, transparency, and human well-being.
 ```
